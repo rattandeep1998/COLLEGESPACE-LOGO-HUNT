@@ -1,0 +1,201 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+html, body {
+    background-color: #000000;
+    margin: 0;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#kannwas {
+    z-index: -1000;
+    position: fixed;
+}
+
+#container {
+    z-index: 1000;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    color: #ffffff;
+    height: 100%;
+}
+
+#smallheading {
+    font-size: 30px;
+    padding: 10px 0 5px 0;
+    font-family: Cambria, Georgia, serif;
+    font-style: italic;
+}
+
+#mainheading {
+    margin: 0px;
+    /*font-family: 'Roboto', sans-serif;*/
+    /*font-size: 70px;*/
+    /*padding: 15px 0;*/
+    /*line-height: 40px;*/
+    /*font-weight: 440;*/
+    /*letter-spacing: 4px;*/
+    /*text-shadow: 2px 2px 2px rgba(255,255,255,0.7);*/
+}
+
+#datetime {
+    font-family: 'Taviraj', serif;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.flexcontainer {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    bottom: 30px;
+}
+
+.flexitem {
+    /*background-color: rgba(158, 235, 161, 0.7);*/
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    width: 250px;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 15px;
+    color: #000000;
+    border: 3px dashed white;
+}
+
+.notices {
+    background-color: rgba(243, 239, 16, 0.7);
+}
+
+.nsitpedia {
+    background-color: rgba(50, 246, 28, 0.7);
+}
+
+.weeklinks {
+    background-color: rgba(255, 25, 25, 0.7);
+}
+
+.updates {
+    background-color: rgba(246, 85, 169, 0.7);
+}
+
+
+
+
+
+h1 {
+  /*display: inline-block;*/
+  color: white;
+  font-family: 'Righteous', serif;
+  font-size: 6em; 
+  letter-spacing: 4px;
+  text-shadow: .02em .02em 0 rgba(0,0,0,1);
+  }
+  h1:after {
+    content: attr(data-shadow);
+    /*position: absolute;*/
+    /*top: .06em; left: .06em;*/
+    left: 227px;
+    top: 144px;
+    letter-spacing: 4px;
+    position: fixed;
+    text-align: center;
+    z-index: -1;
+    text-shadow: none;
+    background-image:
+      linear-gradient(
+        45deg,
+        transparent 45%,
+        hsla(48,20%,90%,1) 45%,
+        hsla(48,20%,90%,1) 55%,
+        transparent 0
+        );
+    background-size: .05em .05em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    animation: shad-anim 15s linear infinite;
+    }
+
+@keyframes shad-anim {
+  0% {background-position: 0 0}
+  0% {background-position: 100% -100%}
+  }
+
+
+  button.css3button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 10px 20px;
+    background: -moz-linear-gradient(
+        top,
+        #10167d 0%,
+        #588fad);
+    background: -webkit-gradient(
+        linear, left top, left bottom,
+        from(#10167d),
+        to(#588fad));
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #000000;
+    -moz-box-shadow:
+        0px 1px 3px rgba(224,208,224,0.5),
+        inset 0px 0px 1px rgba(255,255,255,1);
+    -webkit-box-shadow:
+        0px 1px 3px rgba(224,208,224,0.5),
+        inset 0px 0px 1px rgba(255,255,255,1);
+    box-shadow:
+        0px 1px 3px rgba(224,208,224,0.5),
+        inset 0px 0px 1px rgba(255,255,255,1);
+    text-shadow:
+        0px -1px 0px rgba(250,250,250,0.7),
+        0px 1px 0px rgba(255,255,255,0.3);
+}
+
+#flexbox {
+    margin: 30px 0;
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+} 
+
+
+.footer {
+    font-family: monospace;
+    line-height: 35px;
+    font-size: 25px;
+    background: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    position: relative;
+    /*font-family: Cambria, Georgia, serif;*/
+    box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    color: #ffffff;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
