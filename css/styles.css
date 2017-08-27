@@ -102,7 +102,7 @@ h1 {
     content: attr(data-shadow);
     /*position: absolute;*/
     /*top: .06em; left: .06em;*/
-    left: 227px;
+    left: 203px;
     top: 144px;
     letter-spacing: 4px;
     position: fixed;
