@@ -1,0 +1,43 @@
+@media (max-width: 740px) {
+
+	#mainheading {
+		font-size: 300%;
+	}
+
+	#flexbox {
+		flex-direction: column;
+		/*margin: 30px;*/
+		height: 150px;
+	}
+
+	#flexbox button {
+		font-size: 100%;
+	}
+
+	.flexcontainer {
+		flex-direction: column;
+		height: 400px;
+	}
+
+	.flexcontainer a {
+		margin: auto;
+		width:40%;
+	}
+
+	.flexitem {
+		font-size: 80%;
+		padding:5%;
+	}
+
+	#datetime {
+		font-size: 130%;
+	}
+
+	#smallheading {
+		font-size: 150%;
+	}
+
+	.footer {
+		font-size: 100%;
+	}
+}

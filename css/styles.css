@@ -3,30 +3,29 @@
 html, body {
     background-color: #000000;
     margin: 0;
+    padding: 0;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 15px;
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
 
 #kannwas {
     z-index: -1000;
-    position: fixed;
+    /*position: fixed;*/
 }
 
 #container {
     z-index: 1000;
-    position: fixed;
+    /*position: fixed;*/
     text-align: center;
     width: 100%;
     margin-top: 20px;
     color: #ffffff;
-    height: 100%;
+    /*height: 100%;*/
 }
 
 #smallheading {
-    font-size: 30px;
+    font-size: 200%;
     padding: 10px 0 5px 0;
     font-family: Cambria, Georgia, serif;
     font-style: italic;
@@ -34,37 +33,43 @@ html, body {
 
 #mainheading {
     margin: 0px;
-    /*font-family: 'Roboto', sans-serif;*/
-    /*font-size: 70px;*/
-    /*padding: 15px 0;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 500%;
+    padding: 15px 0;
     /*line-height: 40px;*/
     /*font-weight: 440;*/
-    /*letter-spacing: 4px;*/
-    /*text-shadow: 2px 2px 2px rgba(255,255,255,0.7);*/
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 2px rgba(255,255,255,0.7);
 }
 
 #datetime {
     font-family: 'Taviraj', serif;
     padding: 5px;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 200%;
 }
 
 .flexcontainer {
-    position: fixed;
+    /*position: fixed;*/
     display: flex;
     justify-content: space-around;
     width: 100%;
-    bottom: 30px;
+    /*bottom: 30px;*/
+}
+
+.flexcontainer a {
+    width:20%;
 }
 
 .flexitem {
+    text-align: center;
     /*background-color: rgba(158, 235, 161, 0.7);*/
-    font-size: 30px;
+    font-size: 100%;
     font-family: 'Roboto', sans-serif;
-    width: 250px;
-    margin: 10px;
-    padding: 25px;
+    /*width: 100%;*/
+    /*margin: 10px;*/
+    padding: 10%;
+
     border-radius: 15px;
     color: #000000;
     border: 3px dashed white;
@@ -89,9 +94,9 @@ html, body {
 
 
 
-
+/*
 h1 {
-  /*display: inline-block;*/
+  display: inline-block;
   color: white;
   font-family: 'Righteous', serif;
   font-size: 6em; 
@@ -100,8 +105,8 @@ h1 {
   }
   h1:after {
     content: attr(data-shadow);
-    /*position: absolute;*/
-    /*top: .06em; left: .06em;*/
+    position: absolute;
+    top: .06em; left: .06em;
     left: 203px;
     top: 144px;
     letter-spacing: 4px;
@@ -129,6 +134,7 @@ h1 {
   0% {background-position: 100% -100%}
   }
 
+*/
 
   button.css3button {
     font-family: Arial, Helvetica, sans-serif;
@@ -163,10 +169,15 @@ h1 {
 
 #flexbox {
     margin: 30px 0;
+    height: 100px;
     display: flex;
-    position: fixed;
+    /*position: fixed;*/
     justify-content: space-around;
     width: 100%;
+}
+
+#flexbox button {
+    font-size: 100%;
 }
 
 button {
@@ -176,19 +187,21 @@ button {
 
 .footer {
     font-family: monospace;
-    line-height: 35px;
-    font-size: 25px;
+    /*line-height: 35px;*/
+    font-size: 150%;
     background: #fff;
     background: rgba(0, 0, 0, 0.5);
     z-index: 9999;
     position: relative;
-    /*font-family: Cambria, Georgia, serif;*/
+    /*font-family: Cambria, Georgia, serif;
     box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
     text-align: center;
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
-    bottom: 0%;
+    /*bottom: 0%;*/
     color: #ffffff;
+    text-align: center;
+    margin: 3% 0 0 0;
 }
 
 .footer a {
